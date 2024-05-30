@@ -12,5 +12,5 @@ Requirements:
     class_name Action
     @export var animation := "End"
     ```
-- The code in the `_set_animation_tree(node:Node)` function found in `treefinder.gd` must be modified to fit the given project and structure.
+- The code in the `get_animation_tree(node:Node)` function found in `treefinder.gd` must be modified to fit the given project and structure.
   It needs to return the desired AnimationTree node through the selected node. This can be done by having a reference to the relevant AnimationTree on the node together with the `animation` variable, or some other method depending on the project.
