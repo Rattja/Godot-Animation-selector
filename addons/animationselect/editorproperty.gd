@@ -28,7 +28,7 @@ func _update_property()  -> void:
 	property = get_edited_property() as String
 	if !node:
 		return
-	animation_tree = AnimationTreeFinder._set_animation_tree(node)
+	animation_tree = AnimationTreeFinder.get_animation_tree(node)
 	if !animation_tree:
 		return
 	_get_animation_state_list()
